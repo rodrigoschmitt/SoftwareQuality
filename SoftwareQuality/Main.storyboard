@@ -13,7 +13,7 @@
         <!--Movies-->
         <scene sceneID="OfK-1y-ihu">
             <objects>
-                <viewController title="Movies" id="YhP-Rg-im1" customClass="MoviesViewController" customModule="BEPiD2016Class01" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Movies" id="YhP-Rg-im1" customClass="MoviesViewController" customModule="SoftwareQuality" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="ssw-Y8-mdm"/>
                         <viewControllerLayoutGuide type="bottom" id="DZK-Gn-ccq"/>
@@ -49,17 +49,17 @@
         <!--Profiles Table View Controller-->
         <scene sceneID="rwu-9j-7jh">
             <objects>
-                <tableViewController id="mzL-fc-NgS" customClass="ProfilesTableViewController" customModule="BEPiD2016Class01" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController id="mzL-fc-NgS" customClass="ProfilesTableViewController" customModule="SoftwareQuality" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="185" sectionHeaderHeight="28" sectionFooterHeight="28" id="oV5-yY-vCF">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" rowHeight="185" id="lnX-aq-uAv" customClass="ProfileTableViewCell" customModule="BEPiD2016Class01" customModuleProvider="target">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" rowHeight="185" id="lnX-aq-uAv" customClass="ProfileTableViewCell" customModule="SoftwareQuality" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="28" width="375" height="185"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="lnX-aq-uAv" id="Mfd-9n-uMP">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="184.5"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="184"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <stackView opaque="NO" contentMode="scaleToFill" alignment="top" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="mOa-jG-V0H">
@@ -151,7 +151,7 @@
         <!--Profile Detail View Controller-->
         <scene sceneID="SOb-uT-pUM">
             <objects>
-                <viewController id="5fa-Vg-hqE" customClass="ProfileDetailViewController" customModule="BEPiD2016Class01" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="5fa-Vg-hqE" customClass="ProfileDetailViewController" customModule="SoftwareQuality" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="9Nk-97-ICh"/>
                         <viewControllerLayoutGuide type="bottom" id="sQn-Ai-jv1"/>
@@ -193,7 +193,7 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="BEPiD2016Class01" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="SoftwareQuality" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>

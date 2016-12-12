@@ -40,13 +40,6 @@ class MoviesUITests: XCTestCase {
         XCTAssert(app.images["darth_maul"].exists, "imgPhoto")
         
         app.navigationBars["Episode I"].buttons["Star Wars"].tap()
-        
-//        _ = self.expectationForPredicate(
-//            NSPredicate(format: "self.count = 1"),
-//            evaluatedWithObject: XCUIApplication().tables,
-//            handler: nil)
-//        self.waitForExpectationsWithTimeout(5.0, handler: nil)
-        
     }
     
 }
