@@ -11,7 +11,14 @@ import UIKit
 class AccountManager: NSObject {
     
     func checkLogin (_ username: String, password: String) -> Bool {
-        return (username == "rodrigo" && password == "1234")
+        
+        if (username == "rodrigo" && password == "1234") {
+            return true
+        } else {
+            return false
+        }
+        
+        //return (username == "rodrigo" && password == "1234")
     }
 
 }
