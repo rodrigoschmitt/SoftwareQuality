@@ -27,8 +27,8 @@ class AccountTests: XCTestCase {
         XCTAssertTrue(accountManager.checkLogin("rodrigo", password: "1234"), "Check login true...")
     }
     
-//    func testLoginFalse() {
-//        XCTAssertFalse(accountManager.checkLogin("rodrigo", password: "12334"), "Check login false...")
-//    }
+    func testLoginFalse() {
+        XCTAssertFalse(accountManager.checkLogin("rodrigo", password: "12334"), "Check login false...")
+    }
     
 }
